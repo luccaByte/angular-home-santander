@@ -1,6 +1,10 @@
-# AngularHomeSantander
+# Tela inicial Santander (Angular & TypeScript)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
+Desenvolvendo a tela inicial do app Santander com Angular e Typescript
+
+## Links Úteis
+
+- Documentação Angular: [angular.io](https://angular.io/)
 
 ## Development server
 
