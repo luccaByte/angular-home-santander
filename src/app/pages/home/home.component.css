@@ -1,0 +1,17 @@
+.content-container {
+    margin-top: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-boxes {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.content-card {
+    margin-left: 20px;
+}
