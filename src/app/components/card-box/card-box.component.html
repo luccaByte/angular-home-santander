@@ -12,17 +12,17 @@
             <p>XXXX</p>
             <p>XXXX</p>
             <p>XXXX</p>
-            <p>1092</p>
+            <p>{{ accountData.card.number }}</p>
         </div>
     </div>
 
     <div class="card-footer">
-        <p>Olá, Lucas Gonçalves</p>
-        <p>Ag 000</p>
-        <p>CC 1234567</p>
+        <p>Olá, {{ accountData.name }}</p>
+        <p>Ag {{ accountData.account.agency }}</p>
+        <p>CC {{ accountData.account.number }}</p>
     </div>
 
     <div class="card-limit">
-        <p>Limit: 10000</p>
+        <p>Limit: {{ accountData.card.limit }}</p>
     </div>
 </div>
