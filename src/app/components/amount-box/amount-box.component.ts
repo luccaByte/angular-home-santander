@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { AmountDataModel } from 'src/app/model/amountDataModel';
-import { AccountsService } from 'src/app/services/accounts.service';
+import { AmountDataModel } from '../../model/amountDataModel';
+import { AccountsService } from '../../services/accounts.service';
 
 @Component({
 	selector: 'app-amount-box',
