@@ -1,25 +1,24 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppRoutingModule } from './modules/app-routing.module';
-
-import { SvgComponentsModule } from './modules/svg-components.module';
 import { HttpClientModule } from '@angular/common/http';
-
+import { AppRoutingModule } from './modules/app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
-import { HeaderComponent } from './components/header/header.component';
 import { CardBoxComponent } from './components/card-box/card-box.component';
-import { CarouselItensComponent } from './components/carousel-itens/carousel-itens.component';
+import { HeaderComponent } from './components/header/header.component';
 import { AmountBoxComponent } from './components/amount-box/amount-box.component';
+import { CarouselItemsComponent } from './components/carousel-itens/carousel-itens.component';
+import { SvgComponentsModule } from './modules/svg-components.module';
+
 
 @NgModule({
 	declarations: [
 		AppComponent,
-  HomeComponent,
-  HeaderComponent,
-  CardBoxComponent,
-  CarouselItensComponent,
-  AmountBoxComponent,
+		HomeComponent,
+		CardBoxComponent,
+		HeaderComponent,
+		AmountBoxComponent,
+		CarouselItemsComponent
 	],
 	imports: [
 		BrowserModule,
