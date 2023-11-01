@@ -35,7 +35,7 @@ export class CardBoxComponent implements OnInit {
       this.accountData.account.agency = data.account.agency;
       this.accountData.card.limit = data.card.limit;
       this.accountData.account.number = data.account.number;
-      this.accountData.card.number = data.card.number.split("   ")[3]
+      this.accountData.card.number = data.card.number.split(" ")[3]
     })
   }
 }
