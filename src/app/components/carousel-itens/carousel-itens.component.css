@@ -39,7 +39,7 @@
 	box-shadow: 0 2px 8px -2px rgba(34, 34, 34, 0.4);
 }
 
-.square>p {
+.square > p {
 	margin-top: 10px;
 	color: white;
 	font-weight: 600;
